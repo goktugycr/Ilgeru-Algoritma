@@ -3,6 +3,7 @@ int sayiAl();
 int faktoriyelBul();
 void ekranaBas();
 int sayi;
+int fak = 1;
 
 int main()
 {
@@ -20,7 +21,6 @@ int sayiAl()
 
 int faktoriyelBul()
 {
-    int fak = 1;
     for (int i = sayi; i >= 1; i--)
     {        
         fak *= i;
@@ -30,6 +30,6 @@ int faktoriyelBul()
 
 void ekranaBas()
 {
-    std::cout << "Sonuc: " << sayi << std::endl;
+    std::cout << "Sonuc: " << fak << std::endl;
 }
 
