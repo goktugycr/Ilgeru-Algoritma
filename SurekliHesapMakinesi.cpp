@@ -7,7 +7,7 @@ using namespace std;
 
 class Sayi {
 public:
-    int sayi1;
+    float sayi1;
     int sayi2;
     char islem;
 };
